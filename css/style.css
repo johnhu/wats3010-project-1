@@ -1,0 +1,233 @@
+/* Normalize */
+body {
+    height: 100%;
+}
+
+]* {
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding:0;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5px;
+}
+
+/* Typography */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 10px 15px 10px;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+}
+
+p,
+nav,
+div,
+a,
+figcaption,
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#title {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: grey;
+}
+
+/* Page Links */
+ul.page-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:#333;
+  }
+
+  .page-links li {
+    float: left;
+  }
+
+  .page-links a {
+    display:block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 11px 12px;
+    text-decoration: none;
+  }
+
+  .page-links a:hover {
+    background-color: rgb(65, 65, 65);
+    color: white;
+  }
+
+  .page-links .active {
+    background-color:#ffbf00;
+    color: rgb(75, 75, 75);
+  }
+  .page-links .active:hover{
+    background-color:#ffbf00dc;
+    color: rgb(0, 0, 0);
+  }
+
+/* Social links */
+ul.social-links {
+    list-style-type: none;
+    /* trick to getting text to center */
+    /* set height = line-height */
+    height: 48px;
+    line-height: 48px;
+    margin: -3px;
+}
+
+.social-links li {
+    display: inline-block;
+    width: 5rem;
+    background-color: #ffbf00;
+    text-align: center;
+}
+
+.social-links a {
+    color: black;
+    text-decoration: none; /*Removes underline*/
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.social-links li:hover {
+    background-color: #e0a800;
+}
+
+/* Nav bar positioning */
+nav {
+    position: relative;
+    height: 48px;
+    background-color: black;
+}
+
+.nav-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Big Image Figure */
+.big-image {
+    margin: 0;
+}
+
+.big-image img {
+    width: 100%;
+    height: 200px;  /*Ensures image covers the page*/
+}
+
+#caption {
+    font-size: 80%;
+    color: grey;
+}
+
+/*Table layout*/
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.row {
+    display: table-row;
+}
+
+.col {
+    display: table-cell;
+    border: 1px solid lightgray;
+}
+
+.col p {
+    font-size: 1rem;
+}
+
+.wrapped {
+    display: block;
+    float: left;
+    padding: 5px;
+}
+
+#about {
+    font-family: 'Roboto Slab', serif;
+}
+
+#recent-blogs {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Call to action button */
+.cta {
+    width: 11rem;
+    margin: auto;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background: orangered;
+    color: white;
+    border-radius: 30px;
+}
+
+.footer-left {
+    position: absolute;
+    left: 0.50%;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0.50%;
+}
