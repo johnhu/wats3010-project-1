@@ -33,9 +33,9 @@ main {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 5px;
+    padding: 0px 10px;
     margin: 10px 0px;
-    text-align: justify;;
+    text-align: justify;
 }
 
 /* Typography */
@@ -83,7 +83,7 @@ ul.page-links {
 
   .page-links a {
     display:block;
-    background-color: black;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 12.5px 12px;
@@ -91,7 +91,7 @@ ul.page-links {
   }
 
   .page-links a:hover {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(75,75,75);
     color: white;
   }
 
@@ -111,7 +111,6 @@ ul.social-links {
     /* set height = line-height */
     height: 48px;
     line-height: 48px;
-    margin: -3px;
 }
 
 .social-links li {
@@ -138,7 +137,7 @@ ul.social-links {
 nav {
     position: relative;
     height: 48px;
-    background-color: black;
+    background-color: #333;
 }
 
 .nav-left {
@@ -214,12 +213,21 @@ nav {
 }
 
 .cta-button {
-    display: inline-block;
+    display: block;
     height: 40px;
     line-height: 40px;
     background: orangered;
     color: white;
     border-radius: 30px;
+}
+
+footer {
+    background-color: #333;
+    height: 4rem;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 100%;
 }
 
 .footer-left {
