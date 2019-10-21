@@ -185,6 +185,7 @@ nav {
 .col {
     display: table-cell;
     border: 1px solid lightgray;
+    border-radius: 9px;
 }
 
 .col p {
